@@ -15,8 +15,10 @@ cprequire_test(["inline:com-chilipeppr-widget-wcs"], function (wcs) {
 cpdefine("inline:com-chilipeppr-widget-wcs", ["chilipeppr_ready", "jquerycookie"], function () {
     return {
         id: "com-chilipeppr-widget-wcs",
-        url: "http://jsfiddle.net/Danal/4ete4691/show/light/",
-        fiddleurl: "http://jsfiddle.net/Danal/4ete4691/",
+        url: "(auto fill by runme.js)",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
+        fiddleurl: "(auto fill by runme.js)", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
+        githuburl: "(auto fill by runme.js)", // The backing github repo
+        testurl: "(auto fill by runme.js)",   // The standalone working widget so can view it working by itself
         name: "Widget / Work Coordinate System",
         desc: "The Work Coordinate System widget is a visual display to let you easily toggle between your G53 through G59 layers of coordinates as well as turn on G92 temporary coordinates. The visualization of layers helps the user understand how work coordinate systems work.",
         publish: {},
