@@ -10,6 +10,8 @@ cprequire_test(["inline:com-chilipeppr-widget-wcs"], function (wcs) {
     }
     testCoords();
     
+    $('body').css("padding", "30px");
+    
 } /*end_test*/ );
 
 cpdefine("inline:com-chilipeppr-widget-wcs", ["chilipeppr_ready", "jquerycookie"], function () {
