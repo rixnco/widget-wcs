@@ -1,3 +1,5 @@
+/* global requirejs cprequire cpdefine chilipeppr */
+
 // Test this element. This code is auto-removed by the chilipeppr.load()
 cprequire_test(["inline:com-chilipeppr-widget-wcs"], function (wcs) {
     console.log("test running of " + wcs.id);
